@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NET.XF.Intro.View.Home.LoginView">
+
+  <ContentPage.Content>
+    <StackLayout Padding="30">
+      <Label Text="Autenticação" Font="20" />
+      <Entry x:Name="txtUsuario" Placeholder="Usuário" />
+      <Entry x:Name="txtSenha" Placeholder="Senha" />
+      <Button x:Name="btnEntrar" Text="Entrar" Clicked="OnEntrar_Clicked" />
+    </StackLayout>    
+  </ContentPage.Content>
+
+</ContentPage>
